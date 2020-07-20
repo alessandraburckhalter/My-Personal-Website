@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body {
+    background-image: url("../images/fundo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+header#name h1 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: rgb(241, 237, 240);
+    font-size: 50pt;
+    font-weight: 200;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black;
+}
+
+header#name p {
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    font-weight: 100;
+    color: rgb(255, 253, 254);
+    font-size: 50pt;
+    
+    margin-top: -25px;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black;
+}
+
+header#name h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 20pt;
+    font-weight: 400;
+    color: rgb(238, 180, 202);
+    margin-left: 400px;
+    margin-top: 100px;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+header#name h4 {
+    font-family: 'Satisfy', cursive;
+    font-size: 20pt;
+    font-weight: 300;
+    color: rgb(238, 180, 202);
+    text-align: center;   
+    padding: 25px;
+    margin-top: -70px;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black; 
+}
+
+header#name h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 20pt;
+    font-weight: 400;
+    color: rgb(238, 180, 202);
+    margin-left: 390px;
+    margin-top: -60px;
+    padding: 30px;
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    top: 130px;
+    left: 420px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(78, 12, 37);
+    padding: 10px;
+    margin: 5px;
+    color: rgb(247, 224, 241);
+    font-family: 'Satisfy', cursive;
+    font-size: 16pt;
+    
+}
+
+nav#menu li:hover {
+    background-color: rgb(240, 95, 191);
+    color: rgb(54, 7, 39);
+}
+nav#menu h2 {
+    display: none;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    background-color: rgb(240, 95, 191);
+    color: rgb(54, 7, 39);
+}
+
+footer#footer {
+    clear: both;
+    color: white;
+}
+
+footer#footer h1 {
+    left: 650px;
+    position: absolute;
+    bottom: auto;
+    font-size: 11px;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer#footer a {
+    color: white;
+}
